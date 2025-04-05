@@ -1,4 +1,4 @@
-//Xor gate behavioral modelling:
+//Xor gate behavioral modeling:
 
 `timescale 1ns / 1ps
 module xor_gate(out,a,b);
@@ -10,7 +10,7 @@ out = a^b;
 end
 endmodule
 
-//Xor gate dataflow modelling:
+//Xor gate dataflow modeling:
 
 `timescale 1ns / 1ps
 module xor_gate(out,a,b);
@@ -19,7 +19,7 @@ output out;
 assign out = a^b;
 endmodule
 
-//Xor gate structural modelling:
+//Xor gate structural modeling:
 
 `timescale 1ns / 1ps
 module xor_gate(out,a,b);
